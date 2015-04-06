@@ -33,18 +33,3 @@ CREATE TABLE IF NOT EXISTS match(
 	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 	UNIQUE(player_1, player_2, round_no)
 );
-
--- Test Data
--- INSERT INTO player(name) VALUES('A');
--- INSERT INTO player(name) VALUES('B');
-
--- INSERT INTO player(name) VALUES('C');
--- INSERT INTO player(name) VALUES('D');
--- INSERT INTO player(name) VALUES('E');
--- INSERT INTO player(name) VALUES('F');
-
--- INSERT INTO player(name) VALUES('G');
--- INSERT INTO player(name) VALUES('H');
-
--- INSERT INTO match(player_1, player_2, the_winner) VALUES(1, 2, 2);
--- INSERT INTO match(player_1, player_2, the_winner) VALUES(7, 8, 7);

@@ -4,7 +4,7 @@ This is a python tournament functions working with a Database as a Back-End.
 
 ## File Structure
 
-I organized the app files with considerations based on trustful functionality.
+I organized the project with considerations based on trustful functionality.
 
 ```
 	tournament.py		(Query functions)
@@ -59,13 +59,22 @@ Foreign-key constraints:
 ## Instructions
 
 To Test those functions you will need to type the following:
+
+### First import the SQL file into psql
+
+```
+$ psql -f tournament.sql
+```
+
+### Finally do this
 ```
 $ python tournament_test.py
 ```
 
 ## Requirements
 
-You will need a Python 2.x language installed in your system.
+- You will need a Python 2.x language installed in your system.
+- PostgreSQL 9.3+
 
 
 ## Licence
